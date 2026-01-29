@@ -1,13 +1,12 @@
 using UnityEngine;
-using TMPro; // если используешь TextMeshPro
+using TMPro;
 
 public class ScoreUI : MonoBehaviour
 {
-    public TMP_Text scoreText; // перетащи Text в инспекторе
+    public TMP_Text scoreText; 
 
     private void Update()
     {
-        // обновл€ем текст каждый кадр
         scoreText.text = "—чЄт: " + ScoreManager.Instance.score;
     }
 }
