@@ -60,10 +60,10 @@ public class BasketballBounceSound : MonoBehaviour
             // Дополнительная обработка для деревянных поверхностей
             audioSource.pitch *= 1.1f;
         }
-        else if (surface.CompareTag("Metal"))
-        {
-            // Для металлических поверхностей
-            audioSource.pitch *= 1.2f;
-        }
+        //else if (surface.CompareTag("Metal"))
+        //{
+        //    // Для металлических поверхностей
+        //    audioSource.pitch *= 1.2f;
+        //}
     }
 }

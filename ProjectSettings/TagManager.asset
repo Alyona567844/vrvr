@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hand
   - ball
+  - Wood
   layers:
   - Default
   - TransparentFX
