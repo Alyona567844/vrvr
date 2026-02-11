@@ -404,6 +404,8 @@ GameObject:
   - component: {fileID: 524991413}
   - component: {fileID: 524991415}
   - component: {fileID: 524991416}
+  - component: {fileID: 524991418}
+  - component: {fileID: 524991417}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: ball
@@ -445,7 +447,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524991407}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: da55ab0ae6bde04499552cf18dafd7c4, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -744,6 +746,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &524991417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524991407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0378df8091976d848998f05c51598918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &524991418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524991407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972c4f8a8b9d10c4a8dee7fede213b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBounces: 1
+  stopVelocity: 0.3
 --- !u!1001 &534987712
 PrefabInstance:
   m_ObjectHideFlags: 0
